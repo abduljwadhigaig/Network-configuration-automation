@@ -1,0 +1,13 @@
+[routers]
+CiscoA ansible_host=192.168.122.79
+CiscoB ansible_host=192.168.122.120
+CiscoC ansible_host=192.168.122.175
+R21 ansible_host=192.168.122.215
+R11 ansible_host=192.168.122.82
+R22 ansible_host=192.168.122.92
+ 
+[routers:vars]
+ansible_user= cisco
+ansible_ssh_pass = cisco
+ansible_network_os=ios
+ansible_connection = network_cli
