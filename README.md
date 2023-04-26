@@ -4,8 +4,11 @@ In this repo an automated network was designed and configured by NETCONF,RESTCON
 <img width="326" alt="image" src="https://user-images.githubusercontent.com/77650507/228006763-23b1025e-ba65-4a56-abb3-14aa5b4cacf9.png">
 
 As a requirement, the following Python libraries and Ansible should be preinstalled:
+
 ncclint
+
 requests
+
 Ansible
 
 
